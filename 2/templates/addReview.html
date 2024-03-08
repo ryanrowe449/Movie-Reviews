@@ -1,0 +1,39 @@
+<!--Ryan Rowe, rfr21, 2/21/2024
+The program in this file is the individual work of Ryan Rowe-->
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Add a Review</title>
+        </head>
+        <body>
+            <h1>Add a Review</h1>
+            <form method="post">
+                <label for="username">Username:</label>
+                <input type="text" name="username" required>
+                <h1>Movie Information</h1>
+
+                <label for="title">Movie Title:</label>
+                <input type="text" name="title" required>
+                
+                <label for="director">Director:</label>
+                <input type="text" name="director" required>
+                
+                <label for="genre">Genre:</label>
+                <input type="text" name="genre" required>
+                
+                <label for="year">Year:</label>
+                <input type="number" name="year" required>
+
+                <h1>Your Review</h1>
+                <label for="rating">Rating:</label>
+                <input type="number" name="rating" min="1" max="5" required>
+                <br>
+                <br>
+
+                <label for="review">Review:</label>
+                <textarea name="review" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <a href="/">Back to home</a>
+        </body>
+    </html>
